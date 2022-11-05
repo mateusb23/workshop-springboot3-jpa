@@ -25,10 +25,14 @@ public class TestConfig implements CommandLineRunner {	/* FAZEMOS ISSO PARA EXEC
 	@Override
 	public void run(String... args) throws Exception {	// TUDO AQUILO QUE COLOCARMOS DENTRO DESSE MÉTODO run SERÁ EXECUTADO QUANDO A APLICAÇÃO FOR INICIADA
 		
-		User u1 = new User(null, "Maria Brown", "maria@gmail.com", "988888888", "123456");
-		User u2 = new User(null, "Alex Green", "alex@gmail.com", "977777777", "123456");
+		User u1 = new User(null, "Bruna Walkyria", "maria@gmail.com", "988888888", "123454");
+		User u2 = new User(null, "Mateus Santos Bispo", "mateus@gmail.com", "977777777", "123456");
+		User u3 = new User(null, "Gabriel do Janga", "gabriel@gmail.com", "928384885", "123455");
+		User u4 = new User(null, "Fiódor Dostoiévski", "fiodor@gmail.com", "912088300", "789436");
+		User u5 = new User(null, "Safira Gordinha", "safira@gmail.com", "8758808133", "578637");
+		User u6 = new User(null, "Mel Velhinha", "mel@gmail.com", "948446655", "300988");
 		
-		userRepository.saveAll(Arrays.asList(u1, u2)); 	// saveAll -> PASSAMOS UMA LISTA DE OBJETOS E O saveAll A SALVA NO BANCO DE DADOS
+		userRepository.saveAll(Arrays.asList(u1, u2, u3, u4, u5)); 	// saveAll -> PASSAMOS UMA LISTA DE OBJETOS E O saveAll A SALVA NO BANCO DE DADOS
 	}
 	
 }
