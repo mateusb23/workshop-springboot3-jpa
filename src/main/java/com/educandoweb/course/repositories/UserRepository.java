@@ -9,7 +9,5 @@ import com.educandoweb.course.entities.User;
 // PARA SALVAR OS DADOS NO BANCO DE DADOS, A CLASSE QUE REALIZA ISSO É O UserRepository
 
 public interface UserRepository extends JpaRepository<User, Long> {	
-
-	
 	
 }
