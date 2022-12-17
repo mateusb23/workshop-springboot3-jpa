@@ -25,7 +25,7 @@ public class TestConfig implements CommandLineRunner {	/* FAZEMOS ISSO PARA EXEC
 	@Override
 	public void run(String... args) throws Exception {	// TUDO AQUILO QUE COLOCARMOS DENTRO DESSE MÉTODO run SERÁ EXECUTADO QUANDO A APLICAÇÃO FOR INICIADA
 		
-		User u1 = new User(null, "Bruna Walkyria", "maria@gmail.com", "988888888", "123454");
+		User u1 = new User(null, "Bruna Walkyria", "bruna@gmail.com", "988888888", "123454");
 		User u2 = new User(null, "Mateus Santos Bispo", "mateus@gmail.com", "977777777", "123456");
 		User u3 = new User(null, "Gabriel do Janga", "gabriel@gmail.com", "928384885", "123455");
 		User u4 = new User(null, "Fiódor Dostoiévski", "fiodor@gmail.com", "912088300", "789436");
